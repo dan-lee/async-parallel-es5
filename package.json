@@ -1,16 +1,17 @@
 {
-  "name": "async-parallel",
+  "name": "async-parallel-es5",
   "version": "2.0.0",
-  "description": "Async enabled each(), map(), filter() functions that work just like their standard counterparts, but can be used with async/await and also provide concurrency limiting. Includes built-in typings and JSDoc comments for IntelliSense documentation.",
+  "description": "(ES5 fork) Async enabled each(), map(), filter() functions that work just like their standard counterparts, but can be used with async/await and also provide concurrency limiting. Includes built-in typings and JSDoc comments for IntelliSense documentation.",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
+    "prepublishOnly": "yarn build",
     "test": "mocha",
     "start": "node main.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/davetemplin/async-parallel.git"
+    "url": "git+https://github.com/dan-lee/async-parallel-es5.git"
   },
   "keywords": [
     "asynchronous",
