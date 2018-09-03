@@ -7,11 +7,11 @@
     "removeComments": true,
     "preserveConstEnums": false,
     "sourceMap": true,
-    "declaration": true
+    "declaration": true,
+    "types": ["node", "@types/mocha"]
   },
   "files": [
     "index.ts",
-    "main.ts",
     "test.ts"
   ]
 }
