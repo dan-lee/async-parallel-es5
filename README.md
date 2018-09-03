@@ -1,3 +1,14 @@
+A fork from `async-parallel`. This package provides a valid ES5 build. Install via:
+
+```
+yarn add async-parallel-es5
+```
+or
+```
+npm install --save async-parallel-es5
+```
+
+-----
 # async-parallel
 Async enabled each(), map(), filter() functions that work just like their standard counterparts, but can be used with async/await and also provide concurrency limiting. Includes built-in typings and JSDoc comments for IntelliSense documentation.
 
